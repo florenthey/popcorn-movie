@@ -17,7 +17,6 @@ const API_KEY = "api_key=68a590082c8c328023741c97c9c09038";
 
 //currentMovie = best movie in Theaters for TMDb users
 //movieList = first, second, third, fourth, fifth... best movies in Theaters for TMDb users
-//initMovie get this and apply a video for current movie
 export default class App extends Component{
 
     state = {
@@ -35,8 +34,6 @@ export default class App extends Component{
                 this.setState({currentMovie:response.data.results[0],
                                movieList:response.data.results.slice(0,6)}, 
                                () => {this.applyVideoToCurrentMovie()}) //callback function, wait update before launching applyVideo...
-                //console.log(this.state.currentMovie)
-                //console.log(this.state.movieList)
             })
     }
 
@@ -49,8 +46,6 @@ export default class App extends Component{
                 this.setState({
                     currentMovie:newCurrentMovieState
                 })
-                console.log(newCurrentMovieState)
-                console.log(response)
             })
     }
     
