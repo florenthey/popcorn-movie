@@ -14,3 +14,4 @@ npm:
 ```sh
 $ cd popcorn-streaming
 $ npm i
+$ npm start
