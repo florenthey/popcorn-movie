@@ -1,0 +1,36 @@
+.search_bar {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+li:hover {
+    background-color: #E0E0E0;
+}
+
+.title_list_item {
+    padding-top:40px;
+    text-align:center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    padding:10px;
+    padding-top: 170px;
+}
+
+div {
+    padding: 5px;
+}
+
+.container {
+    background-color: lightblue;
+    padding-top:70px;
+}
+
+.fixed-top {
+    background-color: #007bff;
+    padding:0;
+}
