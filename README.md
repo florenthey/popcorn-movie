@@ -12,7 +12,7 @@ Git Clone or download project:
 
 npm:
 ```sh
-$ cd popcorn-streaming
+$ cd popcorn-movie
 $ npm i
 $ npm start
 
