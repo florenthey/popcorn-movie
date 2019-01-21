@@ -1,4 +1,4 @@
-# Popcorn Movie Streaming
+# Popcorn Movie
 
 
 A React application for search movies on TMDb API.
