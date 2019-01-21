@@ -15,3 +15,5 @@ npm:
 $ cd popcorn-streaming
 $ npm i
 $ npm start
+
+Go to http://localhost:8080/
